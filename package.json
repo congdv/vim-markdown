@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "deploy": "rm -rf ./dist && parcel build public/index.html"
   },
   "keywords": [],
   "author": "Cong Dao - congdaovan94@gmail.com",
